@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>INSFRA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1530804458434-67fe207c3a71?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VjY2Vzc2Z1bHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <div class="logo"><a href="#">INSFRA</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="/services.html" target="_self" class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Team</a>
+            <input type="checkbox" id="show-team">
+            <label for="show-team">Team</label>
+            <ul>
+              <li><a href="#">Content Developing</a></li>
+              <li><a href="#">Project Management</a></li>
+              <li><a href="#">Administration</a></li>
+              <li>
+                <a href="#" class="desktop-link">Software Engineering</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Marketing Department</a></li>
+                  <li><a href="#">SEO</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+           
+            </ul>
+            <span>Phone</span>
+          </li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+  <div class="company-description">
+    <h2>A creative idea can change the future...</h2>
+    <h3>Our passion over inspiring both businesses’ and individuals’</h3>
+  </div>
+
+</body>
+</html>

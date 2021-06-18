@@ -145,6 +145,14 @@ nav .content .links{
   font-weight: 400;
 }
 
+.caller-icon {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(25, 230, 103);
+  margin-left: 400px;
+  
+}
+
 /* Dropdown Menu  */
 .content .links ul{
   position: absolute;
